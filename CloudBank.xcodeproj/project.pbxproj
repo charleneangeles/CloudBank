@@ -19,9 +19,8 @@
 		F28F51851FBD15A600C3CE0C /* LoginViewController LoginViewController LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F51841FBD15A600C3CE0C /* LoginViewController LoginViewController LoginViewController.swift */; };
 		F28F51871FBD15E900C3CE0C /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F51861FBD15E900C3CE0C /* AccountsViewController.swift */; };
 		F28F51891FBD15F300C3CE0C /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F51881FBD15F300C3CE0C /* TransactionsViewController.swift */; };
-		F28F518D1FBFF17C00C3CE0C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F518C1FBFF17B00C3CE0C /* TableViewCell.swift */; };
 		F28F518F1FBFF2E000C3CE0C /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F518E1FBFF2E000C3CE0C /* TransactionModel.swift */; };
-		F28F51911FBFF6EE00C3CE0C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F51901FBFF6ED00C3CE0C /* TableViewCell.swift */; };
+		F2CE9F6D1FC239590078B88F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE9F6C1FC239590078B88F /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +61,8 @@
 		F28F51841FBD15A600C3CE0C /* LoginViewController LoginViewController LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController LoginViewController LoginViewController.swift"; sourceTree = "<group>"; };
 		F28F51861FBD15E900C3CE0C /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
 		F28F51881FBD15F300C3CE0C /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
-		F28F518C1FBFF17B00C3CE0C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = /Users/cangeles/Dropbox/Senior/Semester1/INSY4931/ProjectDeliverables/CloudBank/CloudBank/TableViewCell.swift; sourceTree = "<absolute>"; };
 		F28F518E1FBFF2E000C3CE0C /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
-		F28F51901FBFF6ED00C3CE0C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = /Users/cangeles/Dropbox/Senior/Semester1/INSY4931/ProjectDeliverables/CloudBank/CloudBank/TableViewCell.swift; sourceTree = "<absolute>"; };
+		F2CE9F6C1FC239590078B88F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,11 +133,10 @@
 		F2357F811FBD0A88006DCA38 /* CloudBank */ = {
 			isa = PBXGroup;
 			children = (
-				F28F518C1FBFF17B00C3CE0C /* TableViewCell.swift */,
 				F2357F821FBD0A88006DCA38 /* AppDelegate.swift */,
-				F28F51901FBFF6ED00C3CE0C /* TableViewCell.swift */,
 				F2357F841FBD0A88006DCA38 /* ViewController.swift */,
 				F2357F861FBD0A88006DCA38 /* Main.storyboard */,
+				F2CE9F6C1FC239590078B88F /* TableViewCell.swift */,
 				F28F518E1FBFF2E000C3CE0C /* TransactionModel.swift */,
 				F28F51861FBD15E900C3CE0C /* AccountsViewController.swift */,
 				F28F51881FBD15F300C3CE0C /* TransactionsViewController.swift */,
@@ -371,12 +368,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2357F851FBD0A88006DCA38 /* ViewController.swift in Sources */,
-				F28F51911FBFF6EE00C3CE0C /* TableViewCell.swift in Sources */,
 				F2357F831FBD0A88006DCA38 /* AppDelegate.swift in Sources */,
 				F28F51871FBD15E900C3CE0C /* AccountsViewController.swift in Sources */,
-				F28F518D1FBFF17C00C3CE0C /* TableViewCell.swift in Sources */,
 				F28F518F1FBFF2E000C3CE0C /* TransactionModel.swift in Sources */,
 				F28F51851FBD15A600C3CE0C /* LoginViewController LoginViewController LoginViewController.swift in Sources */,
+				F2CE9F6D1FC239590078B88F /* TableViewCell.swift in Sources */,
 				F28F51891FBD15F300C3CE0C /* TransactionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

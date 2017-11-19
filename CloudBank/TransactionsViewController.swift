@@ -27,7 +27,7 @@ class TransactionsViewController: UIViewController {
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         //creating a cell using the custom class
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ViewControllerTableViewCell
         
         //the artist object
         let transaction: TransactionModel
@@ -36,9 +36,9 @@ class TransactionsViewController: UIViewController {
         transaction = transactionList[indexPath.row]
         
         //adding values to labels
-        cell.labelDate.text = transaction.Date
-        cell.labelVendor.text = transaction.Vendor
-        cell.labelAmount.text = transaction.Amount
+        cell.DateLabel.text = transaction.Date
+        cell.LabelVendor.text = transaction.Vendor
+        cell.LabelAmount.text = transaction.Amount
         
         //returning cell
         return cell
@@ -69,7 +69,7 @@ class TransactionsViewController: UIViewController {
                     let transactionsVendor  = transactionsObject?["Vendor"]
                     let transactionsAmount = transactionsObject?["Amount"]
                     
-                    //creating artist object with model and fetched values
+                    //creating arti4idst object with model and fetched values
                     let transaction = TransactionModel(Date: transactionsDate as! String?, Vendor: transactionsVendor as! String?, Amount: transactionsAmount as! String?)
                     
                     //appending it to list
@@ -77,7 +77,7 @@ class TransactionsViewController: UIViewController {
                 }
                 
                 //reloading the tableview
-                self.tableViewTransactions.reloadData()
+                self.TransactionsTableView.reloadData()
             }
         })
     }
